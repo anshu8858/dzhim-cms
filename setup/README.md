@@ -44,5 +44,5 @@ Last tested on `Ubuntu 16.04` with `NGINX 1.10.3`, `PHP 7.0.22`, `MariaDB 10.2.2
 
 --------------------------------
 
-![image](images/logo/footer.png) Created in 2013 / Re-animated in Feb 2018.
+![image](../images/logo/footer.png) Created in 2013 / Re-animated in Feb 2018.
 
