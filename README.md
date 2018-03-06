@@ -1,8 +1,8 @@
-<div style="text-align: center;" markdown="1" align="center">
-    <p><h1>Dzhim CMS</h1></p>
-    <p><img src="images/logo/red-black.png"></p>
-    <p>A very basic <strong>C</strong>ontent <strong>M</strong>anagement <strong>S</strong>ystem written in PHP.</p>
-</div>
+# Dzhim CMS
+
+![image](images/logo/red-black.png)
+
+A very basic <strong>C</strong>ontent <strong>M</strong>anagement <strong>S</strong>ystem written in PHP.
 
 ## Basic features
 
