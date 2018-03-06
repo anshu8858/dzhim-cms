@@ -1,0 +1,17 @@
+body { 
+	font-family: Tahoma, Geneva, sans-serif;
+	background: black;
+	color: red;
+}
+.headBlock{
+	background: black;
+}
+.contentBlock{
+	background: red;
+}
+.contentBlock2{
+	background: black;	
+}
+.headCatLi{
+	border: none;
+}

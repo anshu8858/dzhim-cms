@@ -1,0 +1,21 @@
+table{
+	width: 100%;
+}
+td, th{
+	text-align: center;
+	padding: 5px;
+}
+th{
+	text-transform:capitalize;
+	background: #F4F7F7;
+}
+tr.odd{
+	background: #eee;
+}
+tr.even{
+	background: #ddd;
+}
+tr:hover{
+	background: #A4EAAE; /* #aaa */
+	cursor:pointer;
+}

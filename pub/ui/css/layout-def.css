@@ -1,0 +1,142 @@
+body { 
+	font-family: Tahoma, Geneva, sans-serif;
+}
+h1,h2,h3,h4{
+	margin-top: 0px;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.mainWrapBlock{
+    width: 1100px;
+    margin:auto;
+}
+.headTopBlock{
+	height: 85px;
+}
+.headBottomBlock{
+	height: 45px;
+}
+.headTitle h1{
+	margin:0px;
+}
+
+.headBlock{
+    background: white;
+}
+.headCatBlock{
+	width: 100%;
+}
+.menuUl{
+	margin:0px;
+	padding: 0px;
+}
+.menuLi, .menuLi a{
+	text-align: center;
+	list-style-type: none;
+	text-decoration: none;
+}
+.menuLi a:hover{
+	text-decoration: underline;
+}
+.headCatLi{
+	float:left;
+	width: 100px;
+	margin-right: 5px;
+	background: #f06f2f;
+	border: 1px solid #80808075;
+	padding: 6px;
+}
+.headCatLi a{
+	color: white;
+	font-weight: 700;
+	width: 100px;
+    height: 20px;
+    display: block;
+}
+li.headCatLi.headCatActive{
+	background: white;
+	border: 1px solid black;
+}
+li.headCatLi.headCatActive a{
+	color: black;
+}
+.langMenu{
+	padding: 5px;
+	margin: 0px;
+	width: 200px;
+	height: 25px;
+}
+.langMenuUl{
+	float:right;
+}
+.langMenuLi{
+	float:left;
+	width: 50px;
+	height: 20px;
+	margin: 0px 5px 0px 0px;
+	border: 1px solid #80808075;
+}
+.langMenuLi a{
+	color: white;
+    font-weight: bold;
+}
+.langMenuLi{
+	padding: 2px;
+	background: #6495ed;
+}
+li.activeLangMenuLi{
+	background: white;
+	border: 1px solid black;
+}
+.contentBlock{
+	min-height: 100px;
+    background:#6495ed;
+    width: 99%;
+    padding: 5px;
+}
+.contentBlock2{
+	background: white;
+	margin: 5px;
+    min-height: 500px;
+	padding: 10px;
+}
+.startpageBlock{
+    padding: 20px 100px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    min-height: 270px;
+}
+.footerBlock{
+    color: #B5AFAF;
+    font-size: 16px;
+    padding: 11px;
+    border-top: 1px solid lightgray;
+    margin-top: 5px;
+}
+.partnerItem{
+	border: 1px solid black;
+	margin-top: 5px;
+	padding: 70px;
+}
+.partnerItemR{
+	width:60%;
+	float:right; 
+	min-height: 100px;
+}
+.cubicImg200{
+	width: 200px;
+	height: 200px;
+}
+.productPrice{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.partnerItemL{
+	width: 200px;
+	margin-right: 85px;
+}

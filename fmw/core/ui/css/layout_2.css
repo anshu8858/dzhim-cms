@@ -1,0 +1,279 @@
+body {
+	min-width: 1024px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 16px;
+    line-height: 18px;
+}
+
+.mainWrapBlock{
+	min-height: 600px;
+    width: 98%;
+	padding: 0px 1% 0px 1%;
+    margin:auto;
+}
+
+/* HEAD */
+.headBlock{
+	border-bottom: solid 1px;
+	margin-bottom: 10px;
+}
+.headCatUl{
+	float:left;
+	margin:0px;
+	list-style-type: circle;
+	font-size: 13px;
+	padding-left:20px;
+}
+.headCatUl a{
+	border: 1px solid black;	
+	padding: 5px 35px 5px 35px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 14px;
+    line-height: 14px;
+	color:black;
+	float:left;
+	text-decoration: none;
+}
+.headCatUl a:hover{
+	background-color: #A4EAAE;
+}
+.headCatActive{
+	background-color: #F7ABAA;	
+}
+.headCatLi{
+	list-style-type: none;
+	float:left;
+	margin: 0px 40px 5px 0px;
+}
+.catBlock{
+	background: #F4F7F7;
+}
+.catBlockTitle{
+	padding: 0px;
+	height: 20px;
+	margin: 0px;
+	background: #ddd;
+}
+.catBlockTitle h3{
+	padding: 2px;	
+	font-weight: normal;
+	text-align: center;
+	margin: 0px;
+    font-size: 14px;
+    line-height: 14px;
+}
+.headCatBlock{
+	font-family: Arial,Helvetica,sans-serif;
+}
+/*!= HEAD */
+
+/*= LEFT */
+.lCatLangMenuBlock{
+	background: #ddd;
+	margin-bottom: 15px;
+	padding: 5px;
+}
+/*==ST */
+.stRootUl{
+	padding-left:5px;
+	list-style-type: none;
+}
+.stUl{
+	margin:0px;
+	list-style-type: circle;
+	font-size: 13px;
+	padding-left:20px;
+}
+.stUl a{
+	font-family: Arial,Helvetica,sans-serif;
+	color:black;
+	text-decoration: none;
+}
+.stUl a:hover{
+	background-color: #A4EAAE;
+}
+.stActive,.imgBtnActive{
+	background-color: #F7ABAA;	
+}
+.stRootUl{
+	padding-left:5px;
+	list-style-type: none;
+}
+.stLi{
+	margin: 5px 0px 5px 0px;
+}
+.catBlock{
+	background: #F4F7F7;
+}
+.catBlockTitle{
+	padding: 0px;
+	height: 20px;
+	margin: 0px;
+	background: #ddd;
+}
+.catBlockTitle h3{
+	padding: 2px;	
+	font-weight: normal;
+	font-family: Arial,Helvetica,sans-serif;
+	text-align: center;
+	margin: 0px;
+    font-size: 14px;
+    line-height: 18px;
+}
+.stBlock{
+	padding: 10px 5px 10px 5px; 
+	background: #eee;
+	margin-top: 0px;
+}
+
+/*!==ST*/
+/*= LEFT */
+
+/* CONTEENT WRAP */
+.mainContenWrapBlcok{
+	min-height: 600px;
+    float:left;
+	width: 100%;
+    background: purple;
+}
+/*!= CONTEENT WRAP */
+
+.contenWrapBlcok{
+	min-height: 600px;
+	float: left;
+	width: 100%;
+}
+
+/* LSIDE */
+.lsideBlock{
+    float: left;
+    width: 15%;
+}
+/*!= LSIDE */
+
+/*= CONTENT */
+.contentBlock{
+    width: 85%;
+    float:right;
+}
+.contentBlock form{
+	padding: 25px;
+}
+/*== content menu */
+.catContentMenuBlock{
+	width: 100%;
+}
+.catContentMenuUl{
+	float:left;
+	margin:0px;
+	list-style-type: circle;
+	font-size: 13px;
+	padding-left:20px;
+}
+
+.catContentMenuUl a{
+	font-weight: bold;
+	border: 1px solid #DDDDDD;	
+	border-bottom: none;
+	padding: 5px 35px 5px 35px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 12px;
+    line-height: 12px;
+	color:black;
+	float:left;
+	text-decoration: none;
+}
+.catContentMenuUl a:hover{
+	background-color: #A4EAAE;
+}
+.catContentMenuActive{
+	background-color: #FFFFFF!important;
+}
+.catContentMenuLi{
+	list-style-type: none;
+	float:left;
+	background-color: #F4F7F7;
+}
+/*!== content menu */
+/*!=CONTENT */
+
+/* RSIDE */
+.rsideBlock{
+    background: red;
+    float:right;
+    width: 150px;
+}
+/*!= RSIDE */
+
+/* FOOTER */
+.footerBlock{
+	color: #B5AFAF;
+	position: absolute;
+	right:15px;
+	bottom:5px;
+	margin-top: 10px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	text-align: right;
+}
+.footerBlock a{
+	color: #A09B9B;
+}
+.footerBlock a:hover{
+	background: #A4EAAE;
+}
+/* FOOTER */
+
+.inputItemBlock{
+	padding: 10px;
+	border: 1px solid #F2F1F0;
+}
+.inputItemL{
+	font-size: 12px;
+	float:left;
+	width: 4%;
+}
+.inputItemR{
+	float: right;
+	width: 92%;
+}
+
+.imgBlock{
+	height: 120px;
+}
+
+.imgBrowse {
+	background: gray;
+	background-image: url("/ui/css/ico/pic.png");
+	background-repeat: no-repeat;
+	background-position: center;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    cursor: pointer;
+	border: solid 1px;
+}
+.imgBrowse img{
+
+	/*background-position: 8px 8px;*/
+	width: 100px;
+	height: 100px;
+}
+.catContentOneMenu{
+	height: 25px;
+	padding: 2px;
+	width: 99%;
+}
+.borderU{
+	border-top: 1px solid #DCDCDC;
+}
+.borderD{
+	border-bottom: 1px solid #DCDCDC;
+}
+.langSel{
+	padding-top: 3px;
+	height: 24px;
+	margin: 0px 5px 0px 5px;
+	width: 67%;
+	text-align: center;
+}

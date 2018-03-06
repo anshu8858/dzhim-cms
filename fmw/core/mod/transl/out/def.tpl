@@ -1,0 +1,3 @@
+{block 'content'}
+	TRANSL
+{/block}

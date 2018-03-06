@@ -1,0 +1,27 @@
+{
+	"require": {
+		"ckeditor/ckeditor": "4.3.3",
+		"smarty/smarty": "3.1.13",
+		"sunhater/kcfinder": "dev-master#6267051fe2b9af1a66c6020dd6f78741eb55f0c3"
+	},
+	"repositories": [
+		{
+			"type": "git",
+			"url": "https://github.com/sunhater/kcfinder/"
+		}
+	],
+	"scripts": {
+		"post-update-cmd": [
+			"cp -u fmw/core/tool/smarty-custom-plugins/* vendor/smarty/smarty/libs/plugins/",
+			"cp -u vendor/smarty fmw/core/tool/vendor/. -R",
+			"cp -u setup/res/image/* pub/res/image/. -R",
+			"cp -u setup/res/thumb pub/res/. -R",
+			"cp -u fmw/core/config/config.php fmw/config.php",
+			"cp -u vendor/ckeditor/ckeditor pub/ui/js/. -R",
+			"cp fmw/core/config/kcf/config.php vendor/sunhater/kcfinder/config.php",
+			"cp -u vendor/sunhater/kcfinder/* pub/kcf/. -R",
+			"chmod a+rw fmw/common/temp/ -R",
+			"chmod a+rrw pub/res/ -R"
+		]
+	}
+}

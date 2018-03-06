@@ -1,0 +1,14 @@
+fmw/config.php
+fmw/common/temp/templ_c/*
+fmw/core/tool/vendor/*
+!fmw/core/tool/vendor/.gitkeep
+pub/ui/js/ckeditor/*
+pub/ui/js/mod/*
+!pub/ui/js/mod/.gitkeep
+pub/kcf/*
+!pub/kcf/.gitkeep
+pub/res/thumb/*
+pub/res/image/*
+!pub/res/image/.gitkeep
+vendor/*
+composer.lock
